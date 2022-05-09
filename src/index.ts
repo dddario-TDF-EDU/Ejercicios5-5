@@ -24,7 +24,6 @@ botonaso.addEventListener("click", () => {
     case 2:
       location.href = "../ejercicios5-5/ejercicioParidad.html";
       break;
-
     case 3:
       location.href = "../ejercicios5-5/mayorDeTres.html";
       break;
