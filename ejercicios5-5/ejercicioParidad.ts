@@ -1,7 +1,7 @@
 let botonaso = document.getElementById("ingreso");
 
 botonaso?.addEventListener("click", () => {
-  let paridad: number = Number(numero.value);
+  let paridad: number = Number(numeraso.value);
 
   if (paridad < 0) {
     paridad = paridad * -1;

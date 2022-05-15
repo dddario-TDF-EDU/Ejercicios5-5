@@ -7,6 +7,8 @@ document.getElementById("app").innerHTML = `
   <option value="1">Medallas</option>
   <option value="2">Par o impar</option>
   <option value="3">El mayor de tres</option>
+  <option value="4">Verificar descuento</option>
+  <option value="5">Aumento salarial</option>
 </select>
 <button id="dirigir">Ir</button>
   
@@ -26,6 +28,12 @@ botonaso.addEventListener("click", () => {
       break;
     case 3:
       location.href = "../ejercicios5-5/mayorDeTres.html";
+      break;
+    case 4:
+      location.href = "../ejercicios5-5/descuentoOctubre.html";
+      break;
+    case 5:
+      location.href = "../ejercicios5-5/aumentoSalarial.html";
       break;
 
     default:
